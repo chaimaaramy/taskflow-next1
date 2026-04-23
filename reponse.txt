@@ -1,0 +1,5 @@
+Q1: Comparez la structure de votre projet React (Vite) avec Next.js. Quelles différences
+Vite → tu crées ton router manuellement (React Router)
+Next.js → un fichier page.tsx dans un dossier = une route automatique
+Q2:Next.js = 1 fichier, route active immédiatement. React Router = créer le composant + modifier App.tsx à chaque nouvelle page.
+Q3: useParams() est un hook → s'exécute dans le navigateur. En Next.js, params est une prop injectée par le serveur → la page s'exécute avant d'arriver au client, ce qui permet le async/await directement dans le composant.
